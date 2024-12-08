@@ -19,11 +19,13 @@
 
     <!-- CSS styles -->
     <link rel="stylesheet" href="./styles/style.css">
-
     <title>Donate Bangladesh</title>
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="/assets/donate.png" type="image/x-icon">
 </head>
 
-<body>
+<body class="lexend">
     <header class=" md:w-full mx-auto mt-0 p-4 md:p-8 sticky top-0 backdrop-blur-md">
         <div class="backdrop-blur-md">
             <nav class="">
@@ -61,8 +63,11 @@
         </div>
 
         <!-- Donate For Section -->
+
         <section id="donate-section">
+
             <!-- Noakhali Section -->
+
             <section class="mt-8 md:w-11/12 mx-auto">
                 <div
                     class="flex flex-col md:flex-row justify-center items-center border-solid rounded-xll py-8 gap-x-12 shadow-xl">
@@ -72,7 +77,7 @@
                     <div class="md:w-6/12 h-full mx-4 gap-y-8">
                         <button class="my-4 btn btn-sm">
                             <img src="./assets/coin.png">
-                            <p id="raised-for-noakhali">600.00</p>
+                            <p id="raised-for-noakhali">500.00</p>
                         </button>
                         <p class="text-xl font-bold">Donate for Flood at Noakhali, Bangladesh</p>
                         <p class="py-6 secondary-text">
@@ -89,7 +94,9 @@
                     </div>
                 </div>
             </section>
+
             <!-- Feni Section -->
+
             <section class="mt-8 md:w-11/12 mx-auto">
                 <div
                     class="flex flex-col md:flex-row justify-center items-center border-solid rounded-xl py-8 gap-x-12 shadow-xl">
@@ -99,7 +106,7 @@
                     <div class="md:w-6/12 h-full mx-4 gap-y-8">
                         <button class="my-4 btn btn-sm">
                             <img src="./assets/coin.png">
-                            <p id="raised-for-feni">8055.00</p>
+                            <p id="raised-for-feni">550.00</p>
                         </button>
                         <p class="text-xl font-bold">Donate for Flood Relief in Feni,Bangladesh</p>
                         <p class="py-6 secondary-text">
@@ -117,7 +124,9 @@
                     </div>
                 </div>
             </section>
+
             <!-- Quota Section -->
+
             <section class="mt-8 w-11/12 mx-auto">
                 <div
                     class="flex flex-col md:flex-row justify-center items-center border-solid rounded-l-xl py-8 gap-x-12 shadow-xl">
@@ -127,7 +136,7 @@
                     <div class="md:w-6/12 h-full mx-4 gap-y-8">
                         <button class="my-4 btn btn-sm">
                             <img src="./assets/coin.png">
-                            <p id="raised-for-students">0.00</p>
+                            <p id="raised-for-students">600.00</p>
                         </button>
                         <p class="text-xl font-bold">Aid for Injured in the Quota Movement</p>
                         <p class="py-6 secondary-text">
@@ -147,8 +156,8 @@
             </section>
         </section>
 
-        <!-- Modal -->
         <!--Successfull-Modal  -->
+
         <dialog id="my_modal_1" class="modal">
             <div class="modal-box text-center flex flex-col justify-center items-center">
                 <h3 class="text-3xl font-extrabold mb-8">Congrats!</h3>
@@ -164,6 +173,7 @@
         </dialog>
 
         <!-- History Section -->
+
         <section id="history-section" class="hidden">
             <div class="bg-yellow-100 py-4 my-4 md:my-8 rounded-3xl">
                 <h1 class="text-6xl font-bold text-center ">Donation History</h1>
@@ -173,14 +183,13 @@
             </div>
         </section>
     </main>
-
     <footer class="mt-8 md:mt-12 footer footer-center bg-yellow-50 text-base-content p-4">
         <aside class="my-10">
             <p>Copyright © - All right reserved by <span style="color: chartreuse;">Mominul Asif</span></p>
         </aside>
     </footer>
 
-
+    <script src="./JS/event.js"></script>
 </body>
 
 </html>
